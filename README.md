@@ -49,23 +49,18 @@ Pulling from the data, here are the standout findings—each backed by visuals a
 
 <img width="1270" height="109" alt="KPI" src="https://github.com/user-attachments/assets/1dc62d78-a46c-4889-a788-34eca0d23bd6" />
   
-Why might slight injuries dominate? Could early interventions in minor accidents prevent escalation?
-  
-  <img width="117" height="41" alt="Screenshot (485)" src="https://github.com/user-attachments/assets/b0816b27-ee42-44b7-93b9-460ac4f6ffe1" />
+#### 2. Payment and Trip Types
+- Uber Pay: 67% (70K bookings), Cash: 32% (33K), Google Pay minimal.
+- Day Trips: 65% (68K), Night: 35% (35K)—but nights have slightly higher avg values ($15.5 vs. $14.8). Why the premium at night?
 
-#### 2. Casualties by Vehicle Type
-- Cars: 203,357 (79.5%), Bikes: 21,218 (8.3%), Vans: 20,416 (8.0%), Buses: 7,444 (2.9%), Agricultural: 598 (0.2%), Others: 2,831 (1.1%).
+<img width="632" height="297" alt="Screenshot 2025-09-13 110315" src="https://github.com/user-attachments/assets/09b8e42b-c6a4-447e-ac77-4aed164417de" />
 
-Maximum by type: Cars. What role do vehicle volumes versus safety features play?
+#### 3.  Vehicle Type Breakdown
+- UberXL: 16.7K bookings, $249K revenue, 57.5K miles.
+- UberX: 38.7K bookings, $583K revenue (highest overall).
+- Others like Comfort ($253K) show premium appeal, but Green underperforms—eco trends not catching on yet?
 
-<img width="255" height="174" alt="Screenshot (486) 1" src="https://github.com/user-attachments/assets/e6d5f229-3d84-4990-8d7a-43617f6b4bfb" />
-
-#### 3.  Monthly Trends (2021 vs. 2022)
-- 2021 Total: 134,613 (higher peaks in Nov-Dec).
-- 2022 Total: 121,251 (general decline).
-- Why the drop? Post-COVID travel changes or improved safety measures?
-
-  <img width="399" height="230" alt="Screenshot (490) 1" src="https://github.com/user-attachments/assets/c350d0f7-f095-4ca1-9d37-5a00b4264ec9" />
+<img width="632" height="294" alt="Vehicle" src="https://github.com/user-attachments/assets/b157f099-9880-4f1a-9531-f1a9b80c44f4" />
 
 #### 4. Light Conditions and Time of Day
 - Daylight: 186,161 (72.75%), Darkness: 69,703 (27.25%).
@@ -100,3 +95,8 @@ Based on patterns, consider:
 
 ### Dashboard
 The interactive Excel dashboard summarizes all insights with filters for customization.
+
+
+## Connect with Me 👋
+[LinkedIn](https://www.linkedin.com/in/eromosele-itoya/) | 
+[GitHub](https://github.com/youngdrizzy1)
