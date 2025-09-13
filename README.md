@@ -62,40 +62,50 @@ Pulling from the data, here are the standout findings—each backed by visuals a
 
 <img width="632" height="294" alt="Vehicle" src="https://github.com/user-attachments/assets/b157f099-9880-4f1a-9531-f1a9b80c44f4" />
 
-#### 4. Light Conditions and Time of Day
-- Daylight: 186,161 (72.75%), Darkness: 69,703 (27.25%).
-- Does higher daylight volume reflect more traffic, or overlooked risks like distractions?
+#### 4. Time and Daily Trends
+- Peaks at 10-11 AM and 5-6 PM; heatmap shows Friday evenings as hottest.
+- Bookings by day: Wednesday highest ($239K), Sunday lowest ($224K). Weekend mornings surprise with steady demand.
   
-<img width="321" height="313" alt="Screenshot (493)1" src="https://github.com/user-attachments/assets/1421daef-e994-4a65-a1f9-37b5e721fa27" />
+<img width="571" height="545" alt="Time" src="https://github.com/user-attachments/assets/207fb536-fce5-4c9a-af16-e4d511e06aa6" />
 
-#### 5.  Road Type and Surface Distribution
-- Road Types: Single carriageway (196,600, 76.85%), Dual (32,400, 12.66%), Roundabout (17,200, 6.72%).
-- Surfaces: Dry (181,484, 70.91%), Wet (64,567, 25.23%), Ice/Snow (9,813, 3.83%).
-- Notice correlations: Most on dry, single carriageways. How might weather interact with infrastructure?
+<img width="680" height="546" alt="Heatmap" src="https://github.com/user-attachments/assets/ed259ca2-e3b4-421d-8f18-9f167dfb2b4d" />
 
-  <img width="240" height="108" alt="Screenshot (492)1" src="https://github.com/user-attachments/assets/1cc427ce-948c-4942-83c3-92416a77864e" />
-  <img width="257" height="178" alt="Screenshot (491)1" src="https://github.com/user-attachments/assets/c9165707-b29a-4400-86ea-637aa4a30e9a" />
+#### 5.  Location Insights
+- Top Pickup: Penn Station/Madison Sq West (4.5K bookings).
+- Top Drop-off: Upper East Side North (4.1K).
+- Farthest: 144.1 miles (Lower East Side → Crown Heights).
+- Preferred Vehicles: UberX for most urban pickups, XL for airports like JFK.
 
-#### 6. Location Focus
-- All visualized data filtered to urban areas (255,864). Why prioritize urban? Higher density amplifies risks.
+![Location](https://github.com/user-attachments/assets/96084b34-b80e-4bdf-ad9c-7903fc1d248d)
+
+#### 6. Granular Details
+- Sample trips: Short 1-mile cash rides in East Village ($7-9), longer 12-mile airport hauls ($36+).
+- Total across sample: 14.6K bookings in details view, summing to $153K.
 
 ### Recommendations
-Based on patterns, consider:
-- Target car safety campaigns, as they dominate casualties. What tech like auto-braking could help?
-- Boost awareness for daylight driving risks, perhaps via apps alerting to high-traffic times.
-- Improve single carriageway infrastructure (e.g., better lighting on wet surfaces) to address 76.85% of incidents.
-- Use monthly trends for seasonal alerts, focusing on winter peaks.
-- Expand analysis to rural data for comprehensive views.
+Drawing from the insights:
+- Optimize for peaks: Surge pricing during 5-6 PM Fridays; allocate more drivers to Penn Station.
+- Promote underperformers: Incentives for Green vehicles in eco-conscious areas like Upper East Side.
+- Enhance efficiency: Analyze long trips for route optimizations; test dynamic pricing based on day/night splits.
+- Expand data: Integrate weather or event data to explain fluctuations—could boost predictive accuracy.
+- User-focused: Add mobile optimization to the dashboard for on-the-go stakeholder access.
 
 ### Strategic Goals
-- Empower stakeholders (governments, insurers) with data for targeted interventions.
-- Reduce overall casualties by 10-20% through evidence-based policies.
-- Promote data literacy in road safety to build community-driven changes.
-- Foster ongoing analysis for long-term trends, like post-2022 updates.
+- Equip Uber-like ops with tools to increase revenue by 10-15% through better demand forecasting.
+- Improve rider/driver experiences by reducing wait times in hotspots.
+- Build a scalable template for similar analyses (e.g., Lyft data or multi-city expansions).
+- Encourage data-driven culture in mobility, fostering collaborations with urban planners or insurers.
 
 ### Dashboard
-The interactive Excel dashboard summarizes all insights with filters for customization.
+The Power BI dashboard is fully interactive with slicers, drill-throughs, and dynamic elements. Screenshots below; PBIX file available in the repo for exploration.
+- ####  Overview Analysis:
+![Dashboard_Overview](https://github.com/user-attachments/assets/7b1ec097-6d85-4d23-8c4b-1f8ea35acc62)
 
+- #### Time Analysis:
+<img width="1443" height="809" alt="Screenshot 2025-09-13 110330" src="https://github.com/user-attachments/assets/cd65f329-9095-47ff-92ae-a49df165ee0a" />
+
+- #### Details Analysis:
+<img width="1427" height="803" alt="Screenshot 2025-09-13 110342" src="https://github.com/user-attachments/assets/6d3f09f5-7e5f-4589-840c-b6982c3fecb4" />
 
 ## Connect with Me 👋
 [LinkedIn](https://www.linkedin.com/in/eromosele-itoya/) | 
